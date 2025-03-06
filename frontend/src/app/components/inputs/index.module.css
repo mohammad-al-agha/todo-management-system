@@ -1,0 +1,36 @@
+.app_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_section {
+  display: flex;
+  position: relative;
+}
+
+.app_input > label {
+  color: var(--foreground);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.input_field {
+  width: 100%;
+}
+
+.input_eye_icon {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.input_error_border {
+  border: 1px solid var(--error);
+}
+
+.input_error_text {
+  color: var(--error);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
