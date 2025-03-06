@@ -10,7 +10,6 @@ import {
 } from '@nestjs/common';
 import { TodoService } from './todo.service';
 import { Prisma } from '@prisma/client';
-import { Request } from 'express';
 import { AuthRequest } from 'src/core/types/auth.request.type';
 
 @Controller('todo')
