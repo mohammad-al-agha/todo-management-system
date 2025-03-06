@@ -1,0 +1,105 @@
+.dialog {
+  height: fit-content;
+  padding: 2rem;
+  margin: auto;
+  border-radius: 12px;
+  border: 2px solid var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dialog_section {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal_label {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.priority_button {
+  width: min-content;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 12;
+  cursor: pointer;
+}
+
+.priority_high {
+  background-color: rgba(255, 0, 0, 0.322);
+}
+
+.priority_medium {
+  background-color: rgba(255, 157, 0, 0.192);
+}
+
+.priority_low {
+  background-color: rgba(0, 255, 0, 0.377);
+}
+
+.priority_disabled {
+  background-color: var(--secondary);
+}
+
+.priority_high_text {
+  color: var(--error);
+}
+
+.priority_medium_text {
+  color: var(--yellow);
+}
+
+.priority_low_text {
+  color: var(--green);
+}
+
+.priority_disabled_text {
+  color: var(--background);
+}
+
+.completed_button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  gap: 3px;
+}
+
+.completed_button_check {
+  background-color: var(--green);
+}
+
+.completed_button_timer {
+  background-color: rgba(255, 157, 0, 0.382);
+}
+
+.completed_button_text {
+  color: var(--background);
+}
+
+.completed_button_disabled {
+  background-color: var(--secondary);
+}
+
+.completed_button_text_disabled {
+  color: var(--background);
+}
