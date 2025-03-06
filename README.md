@@ -43,8 +43,8 @@
 
 1- Clone the repo:
 ![Todo App Screenshot](frontend/public/carbon.png)
-2- Install dependencies:
-![Todo App Screenshot](frontend/public/carbon(1).png)
+2- Install dependencies:<br>
+![Todo App Screenshot](frontend/public/carbon(1).png) <br>
 3- Configure environment variables:
   - Create a .env file in the backend directory.
   - Add the following variables:
@@ -52,4 +52,4 @@
 4- Run database migrations:
 ![Todo App Screenshot](frontend/public/carbon(3).png)
 5- Start the backend server:
-![Todo App Screenshot](frontend/public/carbon(4).png)
+![Todo App Screenshot](frontend/public/carbon(5).png)
