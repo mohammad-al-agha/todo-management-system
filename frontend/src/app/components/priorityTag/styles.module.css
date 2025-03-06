@@ -1,0 +1,31 @@
+.priority_tag {
+  width: min-content;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 12;
+}
+
+.priority_tag_high {
+  background-color: rgba(255, 0, 0, 0.322);
+}
+
+.priority_tag_medium {
+  background-color: rgba(255, 157, 0, 0.382);
+}
+
+.priority_tag_low {
+  background-color: rgba(0, 255, 0, 0.377);
+}
+
+.priority_tag_high_text {
+  color: var(--error);
+}
+
+.priority_tag_medium_text {
+  color: var(--yellow);
+}
+
+.priority_tag_low_text {
+  color: var(--green);
+}
