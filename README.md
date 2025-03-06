@@ -2,10 +2,10 @@
 
 ### This is a full-stack Todo application built with NestJS (for the backend) and Next.js (for the frontend). The application supports basic CRUD operations and includes authentication using JWT (JSON Web Tokens). It is built with TypeScript for both frontend and backend.
 
-![Todo App Screenshot](./public/Screenshot2025-03-06 084411.png)
-![Todo App Screenshot](./public/Screenshot2025-03-06 084445.png)
-![Todo App Screenshot](./public/Screenshot2025-03-06 084511.png)
-![Todo App Screenshot](./public/Screenshot2025-03-06 084548.png)
+![Todo App Screenshot](/Screenshot2025-03-06 084411.png)
+![Todo App Screenshot](/Screenshot2025-03-06 084445.png)
+![Todo App Screenshot](/Screenshot2025-03-06 084511.png)
+![Todo App Screenshot](/Screenshot2025-03-06 084548.png)
 
 
 ## Features
@@ -42,14 +42,14 @@
 ## Backend Setup (Nest)
 
 1- Clone the repo
-![Todo App Screenshot](./public/carbon.png)
+![Todo App Screenshot](/carbon.png)
 2- Install dependencies:
-![Todo App Screenshot](./public/carbon(1).png)
+![Todo App Screenshot](/carbon(1).png)
 3- Configure environment variables:
   - Create a .env file in the backend directory.
   - Add the following variables:
-  - ![Todo App Screenshot](./public/carbon(2).png)
+  - ![Todo App Screenshot](/carbon(2).png)
 4- Run database migrations:
-![Todo App Screenshot](./public/carbon(3).png)
+![Todo App Screenshot](/carbon(3).png)
 5- Start the backend server:
-![Todo App Screenshot](./public/carbon(4).png)
+![Todo App Screenshot](/carbon(4).png)
