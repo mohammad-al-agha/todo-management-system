@@ -1,0 +1,27 @@
+.todo_page {
+  padding: 10px 70px;
+}
+
+.todo_page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo_page_actions {
+  margin: 5px;
+  width: min-content;
+}
+
+.empty_todos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--shadow);
+  font-size: 12;
+  font-weight: 600;
+  padding-top: 60px;
+}
