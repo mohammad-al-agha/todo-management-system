@@ -3,8 +3,10 @@
   --foreground: #171717;
   --primary: #005eff;
   --secondary: #e7e7e7;
-  --error: #dc3545;
   --shadow: #7b7b7b;
+  --error: #dc3545;
+  --yellow: #b9aa20;
+  --green: #1fba41;
 }
 
 html,
@@ -53,7 +55,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px var(--primary) inset !important;
+  -webkit-box-shadow: 0 0 0 30px var(--background) inset !important;
 }
 
 button {
@@ -81,4 +83,23 @@ button:is(:hover, :focus) {
 .button_blue {
   background-color: var(--primary);
   color: var(--background);
+}
+
+.button_green {
+  background-color: var(--green);
+  color: var(--background);
+}
+
+.button_red {
+  background-color: var(--error);
+  color: var(--background);
+}
+
+.header_title {
+  background: linear-gradient(to right, var(--foreground), var(--primary));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: null;
+  font-size: 20px;
+  color: var(--primary);
 }
