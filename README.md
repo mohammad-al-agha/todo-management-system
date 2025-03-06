@@ -42,14 +42,14 @@
 ## Backend Setup (Nest)
 
 1- Clone the repo
-![Todo App Screenshot](/carbon.png)
+![Todo App Screenshot](frontend/public/carbon.png)
 2- Install dependencies:
-![Todo App Screenshot](/carbon(1).png)
+![Todo App Screenshot](frontend/public/carbon(1).png)
 3- Configure environment variables:
   - Create a .env file in the backend directory.
   - Add the following variables:
-  - ![Todo App Screenshot](/carbon(2).png)
+  - ![Todo App Screenshot](frontend/public/carbon(2).png)
 4- Run database migrations:
-![Todo App Screenshot](/carbon(3).png)
+![Todo App Screenshot](frontend/public/carbon(3).png)
 5- Start the backend server:
-![Todo App Screenshot](/carbon(4).png)
+![Todo App Screenshot](frontend/public/carbon(4).png)
