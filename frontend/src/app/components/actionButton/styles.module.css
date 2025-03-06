@@ -1,0 +1,17 @@
+.action_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  width: 43px;
+}
+
+.action_button_update {
+  background-color: var(--primary);
+}
+
+.action_button_delete {
+  background-color: var(--error);
+}
