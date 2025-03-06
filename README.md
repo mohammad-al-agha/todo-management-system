@@ -49,6 +49,8 @@
   - Create a .env file in the backend directory.
   - Add the following variables:
   - ![Todo App Screenshot](frontend/public/carbon(2).png)
+
+
 4- Run database migrations:<br>
 ![Todo App Screenshot](frontend/public/carbon(3).png) <br>
 5- Start the backend server:<br>
