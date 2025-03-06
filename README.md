@@ -39,7 +39,7 @@
 - Node.js (LTS version recommended)
 - PostgreSQL
 
-## Backend Setup (Nest)
+## Backend Setup (NestJS)
 
 1- Clone the repo:
 ![Todo App Screenshot](frontend/public/carbon.png)
@@ -55,3 +55,18 @@
 ![Todo App Screenshot](frontend/public/carbon(3).png) <br>
 5- Start the backend server:<br>
 ![Todo App Screenshot](frontend/public/carbon(5).png) <br>
+
+
+## Frontend Setup (Next.js)
+
+1- Navigate to the frontend directory: <br>
+![Todo App Screenshot](frontend/public/carbon(6).png) <br>
+2- Install dependencies: <br>
+![Todo App Screenshot](frontend/public/carbon(1).png) <br>
+3- Start the Next.js development server:<br>
+![Todo App Screenshot](frontend/public/carbon(7).png) <br>
+
+
+## Running the App
+
+Once both backend and frontend are running, open http://localhost:3000 in your browser to access the Todo App.
