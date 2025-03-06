@@ -1,0 +1,38 @@
+.todo_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--shadow);
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
+.todo_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.todo_title {
+  font-size: 15px;
+}
+
+.todo_actions {
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+
+.todo_action_buttons {
+  display: flex;
+  gap: 7px;
+}
+
+.todo_date {
+  font-size: 12px;
+  font-weight: 600;
+}
